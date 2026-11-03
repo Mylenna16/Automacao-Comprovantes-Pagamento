@@ -1,0 +1,28 @@
+# Nunca enviar arquivos corporativos, entradas financeiras ou exportacoes
+*.msapp
+*.msflow
+*.pbix
+*.pbit
+*.xlsm
+*.xlsx
+*.pdf
+*.zip
+*.7z
+*.json
+.env
+.env.*
+secrets/
+private/
+raw-data/
+real-documents/
+.DS_Store
+Thumbs.db
+
+# Dados e mídias que podem conter informação real
+*.csv
+*.txt
+*.docx
+*.pptx
+*.mp4
+*.mov
+*.msi
